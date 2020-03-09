@@ -22,6 +22,8 @@ interface RowProps {
 
 export const styles = {
   row: css({
+    transform: 'scale(1)',
+    width: '100%',
     backgroundColor: tokens.colorWhite,
     position: 'relative',
     '& > td, & > th': {
@@ -34,7 +36,7 @@ export const styles = {
     paddingBottom: 0
   }),
   inputCell: css({
-    minWidth: '50%'
+    width: '50%'
   }),
   dragHandler: css({
     position: 'absolute',

@@ -7,8 +7,8 @@ import { OnAdd } from './Rows';
 const styles = {
   box: css({
     opacity: '1 !important',
-    font: 'inherit',
     position: 'absolute',
+    display: 'block',
     top: 0,
     bottom: 0,
     left: 0,
