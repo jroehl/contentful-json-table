@@ -1,0 +1,6 @@
+{
+  "id": "contentful-json-table",
+  "name": "JSON key-value table",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": ["Object"]
+}
