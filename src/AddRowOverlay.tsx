@@ -50,7 +50,7 @@ interface AddRowOverlayProps {
 const AddRowOverlay = ({ onAdd }: AddRowOverlayProps) => {
   return (
     <td className={styles.box}>
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" onClick={onAdd}>
+      <svg data-test-id="add_row" xmlns="http://www.w3.org/2000/svg" version="1.1" onClick={onAdd}>
         <rect
           height="100%"
           width="100%"

@@ -54,7 +54,7 @@ export class App extends React.Component<AppProps, AppState> {
 
   genId(i: number) {
     const { locale } = this.props.sdk.field;
-    return `item_${i}_${locale}_${new Date().getTime()}`;
+    return `item_${i}_${locale}_${Date.now()}`;
   }
 
   onExternalChange = (values: KeyValue[]) => {

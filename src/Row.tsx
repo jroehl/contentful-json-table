@@ -52,7 +52,7 @@ export const DragHandler = SortableHandle(() => (
 
 const Row = ({ itemIndex, value, onInput, onRemove }: RowProps) => {
   return (
-    <TableRow className={styles.row}>
+    <TableRow testId={`row_${itemIndex}`} className={styles.row}>
       <TableCell className={styles.firstLastCell}>
         <DragHandler />
       </TableCell>
@@ -82,6 +82,7 @@ const Row = ({ itemIndex, value, onInput, onRemove }: RowProps) => {
       </TableCell>
       <TableCell className={styles.firstLastCell}>
         <IconButton
+          testId={`row_remove_${itemIndex}`}
           buttonType="muted"
           iconProps={{ icon: 'DeleteTrimmed' }}
           label="Remove row"
