@@ -25,7 +25,7 @@ const sdk: any = {
   }
 };
 
-declare var global: any;
+declare const global: any;
 
 describe('App', () => {
   beforeEach(() => {
