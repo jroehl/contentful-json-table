@@ -33,7 +33,7 @@
     "help": "contentful-extension-scripts help"
   },
   "dependencies": {
-    "@contentful/forma-36-fcss": "^0.0.20",
+    "@contentful/forma-36-fcss": "^0.0.35",
     "@contentful/forma-36-react-components": "^3.11.3",
     "@contentful/forma-36-tokens": "^0.3.0",
     "array-move": "^2.2.1",
