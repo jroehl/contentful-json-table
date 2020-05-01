@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@contentful/contentful-extension-scripts": "0.15.1",
+    "@contentful/contentful-extension-scripts": "0.16.0",
     "@contentful/eslint-config-extension": "0.3.1",
     "@babel/core": "7.3.4",
     "@babel/plugin-proposal-class-properties": "7.3.4",
