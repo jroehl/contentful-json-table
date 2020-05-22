@@ -1,17 +1,14 @@
-import React from 'react';
-import {
-  TableRow,
-  TableCell,
-  TextInput,
-  IconButton,
-  CardDragHandle
-} from '@contentful/forma-36-react-components';
-import { css } from 'emotion';
+import CardDragHandle from '@contentful/forma-36-react-components/dist/components/Card/CardDragHandle/CardDragHandle';
+import IconButton from '@contentful/forma-36-react-components/dist/components/IconButton/IconButton';
+import TableCell from '@contentful/forma-36-react-components/dist/components/Table/TableCell/TableCell';
+import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
+import TextInput from '@contentful/forma-36-react-components/dist/components/TextInput/TextInput';
 import tokens from '@contentful/forma-36-tokens';
+import { css } from 'emotion';
+import React from 'react';
 import { SortableHandle } from 'react-sortable-hoc';
-
 import { KeyValue } from './index';
-import { OnRemove, OnInput } from './Rows';
+import { OnInput, OnRemove } from './Rows';
 
 interface RowProps {
   itemIndex: number;

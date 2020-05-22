@@ -1,20 +1,16 @@
+import Table from '@contentful/forma-36-react-components/dist/components/Table/Table';
+import TableBody from '@contentful/forma-36-react-components/dist/components/Table/TableBody/TableBody';
+import TableCell from '@contentful/forma-36-react-components/dist/components/Table/TableCell/TableCell';
+import TableHead from '@contentful/forma-36-react-components/dist/components/Table/TableHead/TableHead';
+import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
+import tokens from '@contentful/forma-36-tokens';
+import arrayMove from 'array-move';
+import { css } from 'emotion';
 import React from 'react';
 import { SortableContainer, SortableElement } from 'react-sortable-hoc';
-import {
-  Table,
-  TableRow,
-  TableHead,
-  TableCell,
-  TableBody
-} from '@contentful/forma-36-react-components';
-import tokens from '@contentful/forma-36-tokens';
-import { css } from 'emotion';
-import arrayMove from 'array-move';
-
-import { styles as rowStyles } from './Row';
-import { KeyValue } from './index';
-import Row from './Row';
 import AddRow from './AddRow';
+import { KeyValue } from './index';
+import Row, { styles as rowStyles } from './Row';
 
 export const styles = {
   sortableHelper: css({

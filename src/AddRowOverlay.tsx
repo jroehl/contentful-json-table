@@ -1,7 +1,7 @@
-import React from 'react';
-import { TextLink } from '@contentful/forma-36-react-components';
+import TextLink from '@contentful/forma-36-react-components/dist/components/TextLink/TextLink';
 import tokens from '@contentful/forma-36-tokens';
 import { css } from 'emotion';
+import React from 'react';
 import { OnAdd } from './Rows';
 
 const styles = {

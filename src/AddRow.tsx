@@ -1,9 +1,12 @@
-import React from 'react';
-import { TableRow, TableCell, TextInput, IconButton } from '@contentful/forma-36-react-components';
-import AddRowOverlay from './AddRowOverlay';
-import { OnAdd } from './Rows';
-import { styles as rowStyles, DragHandler } from './Row';
+import IconButton from '@contentful/forma-36-react-components/dist/components/IconButton/IconButton';
+import TableCell from '@contentful/forma-36-react-components/dist/components/Table/TableCell/TableCell';
+import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
+import TextInput from '@contentful/forma-36-react-components/dist/components/TextInput/TextInput';
 import { css } from 'emotion';
+import React from 'react';
+import AddRowOverlay from './AddRowOverlay';
+import { DragHandler, styles as rowStyles } from './Row';
+import { OnAdd } from './Rows';
 
 interface RowProps {
   onAdd: OnAdd;
