@@ -37,7 +37,7 @@
     "@contentful/forma-36-tokens": "^0.5.3",
     "array-move": "^2.2.2",
     "babel-plugin-emotion": "^10.0.33",
-    "contentful-ui-extensions-sdk": "^3.14.3",
+    "contentful-ui-extensions-sdk": "^3.15.0",
     "emotion": "^10.0.27",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
