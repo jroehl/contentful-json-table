@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@contentful/forma-36-fcss": "^0.0.36",
-    "@contentful/forma-36-react-components": "^3.39.1",
+    "@contentful/forma-36-react-components": "^3.39.3",
     "@contentful/forma-36-tokens": "^0.5.3",
     "array-move": "^2.2.1",
     "babel-plugin-emotion": "^10.0.33",
