@@ -7,7 +7,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "@contentful/contentful-extension-scripts": "^0.19.1",
-    "@contentful/eslint-config-extension": "^0.3.1",
+    "@contentful/eslint-config-extension": "^0.4.0",
     "@testing-library/react": "^11.1.0",
     "@types/jest": "^26.0.15",
     "@types/react": "^16.9.53",
