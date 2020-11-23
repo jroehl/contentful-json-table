@@ -11,7 +11,7 @@
     "@testing-library/react": "^11.2.2",
     "@types/jest": "^26.0.15",
     "@types/react": "^17.0.0",
-    "@types/react-dom": "^16.9.9",
+    "@types/react-dom": "^17.0.0",
     "@types/webpack-env": "^1.15.3",
     "contentful-cli": "^1.4.58",
     "cssnano": "^4.1.10",
