@@ -2,7 +2,7 @@ import IconButton from '@contentful/forma-36-react-components/dist/components/Ic
 import TableCell from '@contentful/forma-36-react-components/dist/components/Table/TableCell/TableCell';
 import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
 import TextInput from '@contentful/forma-36-react-components/dist/components/TextInput/TextInput';
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 import React from 'react';
 import AddRowOverlay from './AddRowOverlay';
 import { DragHandler, styles as rowStyles } from './Row';

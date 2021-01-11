@@ -4,7 +4,7 @@ import TableCell from '@contentful/forma-36-react-components/dist/components/Tab
 import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
 import TextInput from '@contentful/forma-36-react-components/dist/components/TextInput/TextInput';
 import tokens from '@contentful/forma-36-tokens';
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 import React from 'react';
 import { SortableHandle } from 'react-sortable-hoc';
 import { KeyValue } from './index';

@@ -5,7 +5,7 @@ import TableHead from '@contentful/forma-36-react-components/dist/components/Tab
 import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
 import tokens from '@contentful/forma-36-tokens';
 import arrayMove from 'array-move';
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 import React from 'react';
 import { SortableContainer, SortableElement } from 'react-sortable-hoc';
 import AddRow from './AddRow';
