@@ -37,7 +37,7 @@
     "array-move": "^3.0.1",
     "babel-plugin-emotion": "^11.0.0",
     "contentful-ui-extensions-sdk": "^3.29.1",
-    "emotion": "^10.0.27",
+    "emotion": "^11.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
