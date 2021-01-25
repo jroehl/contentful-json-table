@@ -24,7 +24,7 @@
     "lint": "eslint ./ --ext .js,.jsx,.ts,.tsx && tsc -p ./ --noEmit",
     "test": "contentful-extension-scripts test --env=jsdom",
     "test:coverage": "contentful-extension-scripts test --env=jsdom --coverage",
-    "deploy": "npm run build && contentful extension update --force",
+    "deploy": "./scripts/deploy.sh",
     "configure": "contentful space use && contentful space environment use",
     "login": "contentful login",
     "logout": "contentful logout",
