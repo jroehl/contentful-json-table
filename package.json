@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "devDependencies": {
     "@babel/core": "^7.12.17",
-    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/plugin-transform-runtime": "^7.12.17",
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
     "@contentful/contentful-extension-scripts": "^0.20.7",
