@@ -1,7 +1,4 @@
-import IconButton from '@contentful/forma-36-react-components/dist/components/IconButton/IconButton';
-import TableCell from '@contentful/forma-36-react-components/dist/components/Table/TableCell/TableCell';
-import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
-import TextInput from '@contentful/forma-36-react-components/dist/components/TextInput/TextInput';
+import { IconButton, TableCell, TableRow, TextInput } from '@contentful/forma-36-react-components';
 import { css } from '@emotion/css';
 import React from 'react';
 import AddRowOverlay from './AddRowOverlay';
@@ -15,9 +12,9 @@ interface RowProps {
 export const styles = {
   mutedRow: css({
     '& > td': {
-      opacity: 0.25
-    }
-  })
+      opacity: 0.25,
+    },
+  }),
 };
 
 const Row = ({ onAdd }: RowProps) => {
@@ -36,7 +33,7 @@ const Row = ({ onAdd }: RowProps) => {
         <IconButton
           buttonType="muted"
           iconProps={{
-            icon: 'DeleteTrimmed'
+            icon: 'DeleteTrimmed',
           }}
           label="Remove row"
         />

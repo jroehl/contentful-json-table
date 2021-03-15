@@ -23,7 +23,7 @@ export class App extends React.Component<AppProps, AppState> {
   constructor(props: AppProps) {
     super(props);
     this.state = {
-      values: this.enrichValues(props.sdk.field.getValue())
+      values: this.enrichValues(props.sdk.field.getValue()),
     };
   }
 
@@ -45,7 +45,7 @@ export class App extends React.Component<AppProps, AppState> {
   enrichValues(values?: KeyValue[]): KeyValue[] {
     const enriched = (values || []).map((value, i) => ({
       ...value,
-      id: value.id || this.genId(i)
+      id: value.id || this.genId(i),
     }));
     return enriched;
   }
@@ -74,7 +74,7 @@ export class App extends React.Component<AppProps, AppState> {
   };
 }
 
-init(sdk => {
+init((sdk) => {
   render(<App sdk={sdk as FieldExtensionSDK} />, document.getElementById('root'));
 });
 

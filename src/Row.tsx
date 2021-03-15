@@ -1,8 +1,10 @@
-import CardDragHandle from '@contentful/forma-36-react-components/dist/components/Card/CardDragHandle/CardDragHandle';
-import IconButton from '@contentful/forma-36-react-components/dist/components/IconButton/IconButton';
-import TableCell from '@contentful/forma-36-react-components/dist/components/Table/TableCell/TableCell';
-import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
-import TextInput from '@contentful/forma-36-react-components/dist/components/TextInput/TextInput';
+import {
+  CardDragHandle,
+  IconButton,
+  TableCell,
+  TableRow,
+  TextInput,
+} from '@contentful/forma-36-react-components';
 import tokens from '@contentful/forma-36-tokens';
 import { css } from '@emotion/css';
 import React from 'react';
@@ -24,23 +26,23 @@ export const styles = {
     backgroundColor: tokens.colorWhite,
     position: 'relative',
     '& > td, & > th': {
-      verticalAlign: 'middle'
-    }
+      verticalAlign: 'middle',
+    },
   }),
   firstLastCell: css({
     paddingLeft: 0,
     paddingTop: 0,
-    paddingBottom: 0
+    paddingBottom: 0,
   }),
   inputCell: css({
-    width: '50%'
+    width: '50%',
   }),
   dragHandler: css({
     position: 'absolute',
     left: 0,
     top: 0,
-    height: '100%'
-  })
+    height: '100%',
+  }),
 };
 
 export const DragHandler = SortableHandle(() => (
@@ -60,7 +62,7 @@ const Row = ({ itemIndex, value, onInput, onRemove }: RowProps) => {
           onChange={({ target }) =>
             onInput(itemIndex, {
               ...value,
-              key: target.value
+              key: target.value,
             })
           }
         />
@@ -72,7 +74,7 @@ const Row = ({ itemIndex, value, onInput, onRemove }: RowProps) => {
           onChange={({ target }) =>
             onInput(itemIndex, {
               ...value,
-              value: target.value
+              value: target.value,
             })
           }
         />
