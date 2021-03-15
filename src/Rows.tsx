@@ -1,8 +1,3 @@
-import Table from '@contentful/forma-36-react-components/dist/components/Table/Table';
-import TableBody from '@contentful/forma-36-react-components/dist/components/Table/TableBody/TableBody';
-import TableCell from '@contentful/forma-36-react-components/dist/components/Table/TableCell/TableCell';
-import TableHead from '@contentful/forma-36-react-components/dist/components/Table/TableHead/TableHead';
-import TableRow from '@contentful/forma-36-react-components/dist/components/Table/TableRow/TableRow';
 import tokens from '@contentful/forma-36-tokens';
 import arrayMove from 'array-move';
 import { css } from '@emotion/css';
@@ -11,15 +6,22 @@ import { SortableContainer, SortableElement } from 'react-sortable-hoc';
 import AddRow from './AddRow';
 import { KeyValue } from './index';
 import Row, { styles as rowStyles } from './Row';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from '@contentful/forma-36-react-components';
 
 export const styles = {
   sortableHelper: css({
     width: '100%',
-    border: `1px solid ${tokens.colorElementLight}`
+    border: `1px solid ${tokens.colorElementLight}`,
   }),
   table: css({
-    marginBottom: tokens.spacingXs
-  })
+    marginBottom: tokens.spacingXs,
+  }),
 };
 
 type OnChange = (values: KeyValue[]) => void;
@@ -88,7 +90,7 @@ const Rows = ({ values, onChange }: RowsProps) => {
     onChange(updatedValues);
   };
 
-  const onRemove: OnRemove = index => {
+  const onRemove: OnRemove = (index) => {
     const updatedValues = values.filter((_, i) => i !== index);
     onChange(updatedValues);
   };

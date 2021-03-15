@@ -1,4 +1,4 @@
-import TextLink from '@contentful/forma-36-react-components/dist/components/TextLink/TextLink';
+import { TextLink } from '@contentful/forma-36-react-components';
 import tokens from '@contentful/forma-36-tokens';
 import { css } from '@emotion/css';
 import React from 'react';
@@ -19,28 +19,28 @@ const styles = {
       height: '100%',
       fill: 'transparent',
       stroke: tokens.colorTextLightest,
-      cursor: 'pointer'
+      cursor: 'pointer',
     },
     '&:hover': {
       '& > svg': {
         stroke: tokens.colorBlueBase,
         '& > rect': {
-          strokeWidth: '2 !important'
-        }
+          strokeWidth: '2 !important',
+        },
       },
       '& > button, & > button svg': {
         fill: tokens.colorTextDark,
-        color: tokens.colorTextDark
-      }
+        color: tokens.colorTextDark,
+      },
     },
     '& > button': {
       position: 'absolute',
       transform: 'translate(-50%, -60%)',
       left: '50%',
       top: '50%',
-      pointerEvents: 'none'
-    }
-  })
+      pointerEvents: 'none',
+    },
+  }),
 };
 
 interface AddRowOverlayProps {
