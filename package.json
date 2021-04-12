@@ -14,7 +14,7 @@
     "@types/react-dom": "^17.0.1",
     "@types/webpack-env": "^1.16.0",
     "contentful-cli": "^1.5.41",
-    "cssnano": "^4.1.10",
+    "cssnano": "^4.1.11",
     "eslint": "^7.24.0",
     "typescript": "^4.2.4"
   },
