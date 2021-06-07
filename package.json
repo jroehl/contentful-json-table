@@ -15,7 +15,7 @@
     "@types/webpack-env": "^1.16.0",
     "contentful-cli": "^1.6.41",
     "cssnano": "^4.1.11",
-    "eslint": "^7.27.0",
+    "eslint": "^7.28.0",
     "typescript": "^4.3.2"
   },
   "scripts": {
