@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "04:00"
+  open-pull-requests-limit: 10
+  reviewers:
+  - jroehl
+  ignore:
+  - dependency-name: "@contentful/forma-36-react-components"
+    versions:
+    - 3.83.0
